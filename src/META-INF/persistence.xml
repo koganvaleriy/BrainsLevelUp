@@ -8,12 +8,11 @@
 		<properties>
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 			<property name="hibernate.connection.url" 
-				value="jdbc:mysql://e7qyahb3d90mletd.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/wby6szbi9etb9tef"/>
+				value="jdbc:mysql://mysql:3306/mysqldb"/>
 			<property name="hibernate.connection.driver_class" 
 				value="com.mysql.jdbc.Driver"/>
-			<property name="hibernate.connection.username" value="no7ky9px0ajg98q6"/>
-			<property name="hibernate.connection.password" value="pg3436hdmtk3od83"/>
-			<property name="hibernate.connection.maxActive" value="9"/>
+			<property name="hibernate.connection.username" value="valeriy"/>
+			<property name="hibernate.connection.password" value="Viktoria+23"/>
 			
 			
 		</properties>
