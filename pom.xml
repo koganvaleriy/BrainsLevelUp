@@ -5,11 +5,19 @@
 	<groupId>ExampleSpringBoot</groupId>
 	<artifactId>springBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
+	<name>brainslevelup</name>
+	<description>brainslevelup</description>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
 	</properties>
+	
+	
+	<!-- Spring Boot Parent -->
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -42,7 +50,6 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -53,7 +60,7 @@
 				</configuration>
 			</plugin>
 			
-<!-- 			<plugin>
+				<!-- 			<plugin>
 		      <groupId>com.heroku.sdk</groupId>
 		      	<artifactId>heroku-maven-plugin</artifactId>
 			      <version>1.2.1</version>
@@ -68,5 +75,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

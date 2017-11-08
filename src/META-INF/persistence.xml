@@ -6,6 +6,7 @@
  
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<properties>
+		<!--  
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 			<property name="hibernate.connection.url" 
 				value="jdbc:mysql://mysql:3306/mysqldb"/>
@@ -13,7 +14,15 @@
 				value="com.mysql.jdbc.Driver"/>
 			<property name="hibernate.connection.username" value="valeriy"/>
 			<property name="hibernate.connection.password" value="Viktoria+23"/>
-			
+		-->	
+		
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.connection.url" 
+				value="jdbc:mysql://mysql:3306/mysqldb"/>
+			<property name="hibernate.connection.driver_class" 
+				value="com.mysql.jdbc.Driver"/>
+			<property name="hibernate.connection.username" value="valeriy"/>
+			<property name="hibernate.connection.password" value="Viktoria+23"/>
 			
 		</properties>
 	</persistence-unit>
